@@ -22,11 +22,11 @@
 ```
 ### 2.3 간략한 작동 방식
 ```
-![핵심 기능 1](./ppt 사진/핵심 기능 1.PNG)
+![핵심 기능 1](https://user-images.githubusercontent.com/74997073/235429935-a57eadc7-99f3-49d4-8452-5e13d085bea2.PNG)
 - 바코드를 읽어서 해당 제품의 이름과 영양정보를 알아온다.
-![핵심 기능 2](./ppt 사진/핵심 기능 2.PNG)
+![핵심 기능 2](https://user-images.githubusercontent.com/74997073/235429957-ec1a4e56-34cb-4e69-b7ca-7249f1561f10.PNG)
 - 유통기한을 입력 받아서 해당 제품의 유통기한이 다가옴에 따라 알림을 보내는 기능을 수행한다.
-![핵심 기능 3](./ppt 사진/핵심 기능 3.PNG)
+![핵심 기능 3](https://user-images.githubusercontent.com/74997073/235429964-23f5eb20-062f-4f1a-9bd4-f2bcea8dc3c9.PNG)
 - 바코드가 읽히지 않거나 없는 경우 제품명을 검색 또는 직접 입력할 수 있는 기능.
 ```
 
