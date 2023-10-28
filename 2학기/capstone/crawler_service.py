@@ -30,8 +30,6 @@ def selenium_init() -> webdriver.Chrome:
     webdriver_path = './lib/chrome/driver/chromedriver.exe'
     options = Options()
     # chrome driver option
-    options.binary_location = './lib/chrome/browser/App/Chrome-bin/Chrome.exe'
-    # options.add_argument('headless')
     options.add_argument('no-default-browser-check')
     options.add_argument('no-first-run')
     options.add_argument('disable-gpu')
