@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">514275337225</string>
+    <string name="google_api_key" translatable="false">AIzaSyDW2B9rMlw0gwwzhq80ss7G1RKHqTa-vZo</string>
+    <string name="google_app_id" translatable="false">1:514275337225:android:cab4e664f0c9ca60ff44d8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDW2B9rMlw0gwwzhq80ss7G1RKHqTa-vZo</string>
+    <string name="google_storage_bucket" translatable="false">food-alarm-51b87.appspot.com</string>
+    <string name="project_id" translatable="false">food-alarm-51b87</string>
+</resources>
