@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/list_ek2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+
+        <RelativeLayout
+            android:id="@+id/list_ek4"
+            android:layout_width="380dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <View
+                android:id="@+id/rectangle_18_ek1"
+                android:layout_width="380dp"
+                android:layout_height="210dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/rectangle_18_ek1_shape" />
+
+            <View
+                android:id="@+id/rectangle_13_ek2"
+                android:layout_width="380dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/rectangle_13_ek2_shape" />
+
+            <TextView
+                android:id="@+id/type_ek1"
+                android:layout_width="180dp"
+                android:layout_height="23.6dp"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="79dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="기한이 1주 이상 남은 제품"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/caution1"
+                android:layout_width="251dp"
+                android:layout_height="23.6dp"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="76dp"
+                android:gravity="center"
+                android:text="@string/caution1_string"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/caution2"
+                android:layout_width="307dp"
+                android:layout_height="23.6dp"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="17dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="114dp"
+                android:gravity="center"
+                android:text="@string/caution2_string"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/icons_alert_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="77dp">
+
+                <ImageView
+                    android:id="@+id/error_icon"
+                    android:layout_width="19.97dp"
+                    android:layout_height="19.97dp"
+                    android:layout_marginStart="2.02dp"
+                    android:layout_marginTop="2.02dp"
+                    android:contentDescription="error_icon"
+                    android:src="@drawable/error" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
