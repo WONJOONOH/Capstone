@@ -1,6 +1,6 @@
-# 유통기한 알리미 어플
+# 식자재 가드 (Food Guard)
 
-1.유통기한 알리미 어플 소개
+1.식자재 가드 소개
 ------------------------
 사용자가 바코드 또는 제품명을 입력하여 나온 제품의 유통기한을 입력받아 해당 날짜가 다가옴에 따라 알림을 보내는 어플
 
@@ -39,7 +39,8 @@
 
 3.해결방법
 -----------
-### 3.1 순서도
+### 3.1 시스템 아키텍쳐
+![시스템 아키텍처](https://github.com/gfdsa8/Capstone/assets/74997073/cfef0205-e250-4dfe-ae2b-51ba233d3e2e)
 
 
 ### 3.2 데이터 수집방법
@@ -62,4 +63,29 @@
 
 ![디자인](https://github.com/gfdsa8/Capstone/assets/74997073/714c939c-923d-4a3f-b15d-d025562d3eec)
 - 2학기에 제작 중인 디자인
+
+4.최종발표 이전까지 구현된 기능
+- 메인 화면
+![Screenshot_20231107_221942_Food Guard](https://github.com/gfdsa8/Capstone/assets/74997073/0365ea57-85ed-468f-bcac-533946b4ca84)
+-----------
+- 카테고리 화면 (4개 중 1개)
+![Screenshot_20231108_134032_Food Guard](https://github.com/gfdsa8/Capstone/assets/74997073/7a84bc66-6fac-45ef-9bb2-43ee6b053df0)
+-----------
+- 제품 추가하기 화면
+![Screenshot_20231108_134028_Food Guard](https://github.com/gfdsa8/Capstone/assets/74997073/6c0b46dd-739c-4dc6-ad6e-ae4637081ed2)
+-----------
+- 직접 입력 기능 (영양소 입력 창)
+![Screenshot_20231108_134023_Food Guard](https://github.com/gfdsa8/Capstone/assets/74997073/805cf3a2-3936-47d7-b35c-1910b629fccb)
+-----------
+- 바코드 스캔 화면
+![Screenshot_20231108_134012_Food Guard](https://github.com/gfdsa8/Capstone/assets/74997073/b3d2257a-0a45-47da-a36b-64eb1a1e8060)
+-----------
+- 제품명 검색 화면
+![Screenshot_20231108_143004_Food Guard](https://github.com/gfdsa8/Capstone/assets/74997073/57dfcd8d-568f-4cb4-b6e3-10d927132bb6)
+-----------
+- 오늘의 영양 화면
+![Screenshot_20231108_134036_Food Guard](https://github.com/gfdsa8/Capstone/assets/74997073/85a9e788-311b-443d-94ca-8d729b6502ba)
+
+- 현재까지 구현된 코드 주소
+https://github.com/gfdsa8/Capstone-design-project/tree/master
 

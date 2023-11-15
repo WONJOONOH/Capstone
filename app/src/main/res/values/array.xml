@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="remain_food">
+        <item>남은 음식의 양</item>
+    </string-array>
+
+    <string-array name="Remain_Food">
+        <item>1/4</item>
+        <item>2/4</item>
+        <item>3/4</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="day_before">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="alarm_time">
+        <item>00:00</item>
+        <item>08:00</item>
+        <item>12:00</item>
+        <item>18:00</item>
+    </string-array>
+
+</resources>

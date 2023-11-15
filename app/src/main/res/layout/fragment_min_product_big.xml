@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <View
+            android:id="@+id/rectangle_18"
+            android:layout_width="380dp"
+            android:layout_height="520dp"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/rectangle_18_shape" />
+
+        <View
+            android:id="@+id/rectangle_13"
+            android:layout_width="380dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/rectangle_13_shape" />
+
+        <TextView
+            android:id="@+id/type1_in_freezer"
+            android:layout_width="195dp"
+            android:layout_height="23.6dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="71dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/type1_in_freezer_string"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/group_1"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="40dp">
+
+            <View
+                android:id="@+id/rectangle_14"
+                android:layout_width="230dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/rectangle_14_shape" />
+
+            <View
+                android:id="@+id/rectangle_15"
+                android:layout_width="230dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="65dp"
+                android:background="@drawable/rectangle_15_shape" />
+
+            <View
+                android:id="@+id/rectangle_16"
+                android:layout_width="230dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="98dp"
+                android:background="@drawable/rectangle_16_shape" />
+
+            <View
+                android:id="@+id/rectangle_13_ek1"
+                android:layout_width="230dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/rectangle_13_ek1_shape" />
+
+            <View
+                android:id="@+id/rectangle_17"
+                android:layout_width="230dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="131dp"
+                android:background="@drawable/rectangle_17_shape" />
+
+            <TextView
+                android:id="@+id/barcode_in_MinPB"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/barcode_in_freezer_string"
+                android:textColor="@color/freezer_name_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/product_name_in_MinPB"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="33dp"
+                android:text="@string/product_name_in_freezer_string"
+                android:textColor="@color/freezer_name_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/deadline_in_MinPB"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="67dp"
+                android:text="@string/deadline_in_freezer_string"
+                android:textColor="@color/freezer_name_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/remain_time_in_MinPB"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="98dp"
+                android:text="@string/remain_time_in_freezer_string"
+                android:textColor="@color/freezer_name_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/remain_food_in_MinPB"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="132dp"
+                android:text="@string/remain_food_in_freezer_string"
+                android:textColor="@color/freezer_name_color"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/rectangle_50"
+            android:layout_width="355dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/production_name_in_MinPB"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:text="제조사/유통사"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/rectangle_51"
+            android:layout_width="355dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/category_food_in_MinPB"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="230dp"
+            android:text="분류"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/rectangle_52"
+            android:layout_width="355dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/address_production_in_MinPB"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="260dp"
+            android:text="판매 회사 주소"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/rectangle_54"
+            android:layout_width="355dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/rectangle_17_shape" />
+
+        <TextView
+            android:id="@+id/nutri"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="300dp"
+            android:text="영양정보"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/rectangle_55"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/kcal_in_MinPB"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="350dp"
+            android:text="열량(kcal)"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/rectangle_56"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="405dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/tansuhwamul_in_MinPB"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="405dp"
+            android:text="탄수화물(g)"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/rectangle_57"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="460dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/protein_in_MinPB"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="460dp"
+            android:text="단백질(g)"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/rectangle_58"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/sugar_in_MinPB"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="350dp"
+            android:text="당(g)"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/rectangle_59"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="405dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/salt_in_MinPB"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="405dp"
+            android:text="나트륨(mg)"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/rectangle_60"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="460dp"
+            android:background="@drawable/rectangle_17_shape" />
+        <TextView
+            android:id="@+id/fat_in_MinPB"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="460dp"
+            android:text="지방(g)"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/rectangle_11"
+            android:layout_width="110dp"
+            android:layout_height="153dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="41dp"
+            android:contentDescription="rectangle_11"
+            android:src="@drawable/rectangle_11" />
+
+        <TextView
+            android:id="@+id/product_picture_in_MinPB"
+            android:layout_width="44.6dp"
+            android:layout_height="23.6dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/product_picture_in_freezer_string"
+            android:textColor="@color/freezer_name_color"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

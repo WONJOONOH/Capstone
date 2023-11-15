@@ -1,0 +1,880 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="410dp"
+	android:layout_height="wrap_content">
+
+	<ScrollView
+		android:id="@+id/table"
+		android:layout_width="410dp"
+		android:layout_height="match_parent">
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="410dp"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:id="@+id/tv_barcode_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="4dp"
+				android:layout_marginEnd="7dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_productName_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="1dp"
+				android:layout_marginEnd="2dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_Remain_food_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="2dp"
+				android:layout_marginEnd="3dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_Deadline_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="2dp"
+				android:layout_marginEnd="2dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_Kcal_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="0dp"
+				android:layout_marginEnd="2dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_Sugar_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="1dp"
+				android:layout_marginEnd="3dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_Tansuhwamul_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="2dp"
+				android:layout_marginEnd="6dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_Salt_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="5dp"
+				android:layout_marginEnd="2dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_Protein_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="2dp"
+				android:layout_marginEnd="3dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<TextView
+				android:id="@+id/tv_Fat_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentEnd="true"
+				android:layout_marginTop="4dp"
+				android:layout_marginEnd="4dp"
+				android:text="TextView"
+				android:visibility="invisible" />
+
+			<Button
+				android:id="@+id/getdata_in_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/list_ek2"
+				android:layout_alignParentStart="true"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="187dp"
+				android:layout_marginEnd="169dp"
+				android:text="데이터베이스 새로고침" />
+
+			<Button
+				android:id="@+id/reset_list_in_table"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/list_ek2"
+				android:layout_alignParentStart="true"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="140dp"
+				android:layout_marginEnd="140dp"
+				android:text="목록 값 초기화" />
+
+			<View
+				android:id="@+id/rectangle_8"
+				android:layout_width="197dp"
+				android:layout_height="33dp"
+				android:layout_marginStart="110dp"
+				android:layout_marginTop="34dp"
+				android:background="@drawable/rectangle_8_shape" />
+
+			<TextView
+				android:id="@+id/table_name"
+				android:layout_width="64.4dp"
+				android:layout_height="36.4dp"
+				android:layout_marginLeft="185dp"
+				android:layout_marginTop="32dp"
+				android:text="@string/table_name_string"
+				android:textColor="@color/table_name_color"
+				android:textSize="24sp" />
+
+
+			<RelativeLayout
+				android:id="@+id/list"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="83dp">
+
+				<View
+					android:id="@+id/rectangle_18"
+					android:layout_width="380dp"
+					android:layout_height="210dp"
+					android:layout_marginStart="-1dp"
+					android:layout_marginTop="-1dp"
+					android:background="@drawable/rectangle_18_shape" />
+
+				<View
+					android:id="@+id/rectangle_13"
+					android:layout_width="380dp"
+					android:layout_height="31dp"
+					android:layout_marginStart="-1dp"
+					android:layout_marginTop="-1dp"
+					android:background="@drawable/rectangle_13_shape" />
+
+				<TextView
+					android:id="@+id/type1_in_table"
+					android:layout_width="195dp"
+					android:layout_height="23.6dp"
+					android:layout_alignParentStart="true"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="71dp"
+					android:layout_marginLeft="85dp"
+					android:layout_marginTop="5dp"
+					android:gravity="center"
+					android:text="@string/type1_in_table_string"
+					android:textColor="@color/black"
+					android:textSize="16sp" />
+
+
+				<RelativeLayout
+					android:id="@+id/group_1"
+					android:layout_width="230dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="136dp"
+					android:layout_marginTop="40dp">
+
+					<View
+						android:id="@+id/rectangle_14"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="32dp"
+						android:background="@drawable/rectangle_14_shape" />
+
+					<View
+						android:id="@+id/rectangle_15"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="65dp"
+						android:background="@drawable/rectangle_15_shape" />
+
+					<View
+						android:id="@+id/rectangle_16"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="98dp"
+						android:background="@drawable/rectangle_16_shape" />
+
+					<View
+						android:id="@+id/rectangle_13_ek1"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="-1dp"
+						android:background="@drawable/rectangle_13_ek1_shape" />
+
+					<View
+						android:id="@+id/rectangle_17"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="131dp"
+						android:background="@drawable/rectangle_17_shape" />
+
+					<TextView
+						android:id="@+id/barcode_in_table"
+						android:layout_width="50dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="3dp"
+						android:layout_marginTop="0dp"
+						android:text="바코드:"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+					<TextView
+						android:id="@+id/barcode_value_in_table"
+						android:layout_width="150dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="40dp"
+						android:layout_marginTop="0dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+
+					<TextView
+						android:id="@+id/product_name_in_table"
+						android:layout_width="50dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="4dp"
+						android:layout_marginTop="33dp"
+						android:text="제품명:"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/product_name_value_in_table"
+						android:layout_width="150dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="45dp"
+						android:layout_marginTop="33dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/deadline_in_table"
+						android:layout_width="110dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="4dp"
+						android:layout_marginTop="67dp"
+						android:text="유통기한(소비기한):"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/deadline_value_in_table"
+						android:layout_width="110dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="110dp"
+						android:layout_marginTop="67dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/remain_time_in_table"
+						android:layout_width="60dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="3dp"
+						android:layout_marginTop="98dp"
+						android:text="남은 기간:"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/remain_time_value_in_table"
+						android:layout_width="60dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="60dp"
+						android:layout_marginTop="99dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/remain_food_in_table"
+						android:layout_width="50dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="3dp"
+						android:layout_marginTop="132dp"
+						android:text="남은 양:"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/remain_food_value_in_table"
+						android:layout_width="150dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="50dp"
+						android:layout_marginTop="130dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+				</RelativeLayout>
+
+				<ImageView
+					android:id="@+id/rectangle_11"
+					android:layout_width="110dp"
+					android:layout_height="153dp"
+					android:layout_marginStart="8dp"
+					android:layout_marginTop="41dp"
+					android:contentDescription="rectangle_11" />
+
+				<TextView
+					android:id="@+id/product_picture_in_table"
+					android:layout_width="44.6dp"
+					android:layout_height="23.6dp"
+					android:layout_marginLeft="49dp"
+					android:layout_marginTop="110dp"
+					android:text="@string/product_picture_in_table_string"
+					android:textColor="@color/table_name_color"
+					android:textSize="16sp" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout
+				android:id="@+id/list_ek2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="13dp"
+				android:layout_marginTop="305dp">
+
+				<View
+					android:id="@+id/rectangle_180"
+					android:layout_width="380dp"
+					android:layout_height="210dp"
+					android:layout_marginStart="-1dp"
+					android:layout_marginTop="-1dp"
+					android:background="@drawable/rectangle_18_shape" />
+
+				<View
+					android:id="@+id/rectangle_130"
+					android:layout_width="380dp"
+					android:layout_height="31dp"
+					android:layout_marginStart="-1dp"
+					android:layout_marginTop="-1dp"
+					android:background="@drawable/rectangle_13_ek2_shape" />
+
+				<TextView
+					android:id="@+id/type2_in_table"
+					android:layout_width="195dp"
+					android:layout_height="23.6dp"
+					android:layout_alignParentStart="true"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="71dp"
+					android:layout_marginLeft="85dp"
+					android:layout_marginTop="5dp"
+					android:gravity="center"
+					android:text="기한이 1주 이상 남은 제품"
+					android:textColor="@color/black"
+					android:textSize="16sp" />
+
+
+				<RelativeLayout
+					android:id="@+id/group_2"
+					android:layout_width="230dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="136dp"
+					android:layout_marginTop="40dp">
+
+					<View
+						android:id="@+id/rectangle_140"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="32dp"
+						android:background="@drawable/rectangle_14_shape" />
+
+					<View
+						android:id="@+id/rectangle_150"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="65dp"
+						android:background="@drawable/rectangle_15_shape" />
+
+					<View
+						android:id="@+id/rectangle_160"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="98dp"
+						android:background="@drawable/rectangle_16_shape" />
+
+					<View
+						android:id="@+id/rectangle_130_ek1"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="-1dp"
+						android:background="@drawable/rectangle_13_ek1_shape" />
+
+					<View
+						android:id="@+id/rectangle_170"
+						android:layout_width="230dp"
+						android:layout_height="20dp"
+						android:layout_marginStart="-1dp"
+						android:layout_marginTop="131dp"
+						android:background="@drawable/rectangle_17_shape" />
+
+					<TextView
+						android:id="@+id/barcode_in_table_MaxPS"
+						android:layout_width="50dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="3dp"
+						android:layout_marginTop="0dp"
+						android:text="바코드:"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+					<TextView
+						android:id="@+id/barcode_value_in_table_MaxPS"
+						android:layout_width="150dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="40dp"
+						android:layout_marginTop="0dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/product_name_in_table_MaxPS"
+						android:layout_width="50dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="4dp"
+						android:layout_marginTop="33dp"
+						android:text="제품명:"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+					<TextView
+						android:id="@+id/product_name_value_in_table_MaxPS"
+						android:layout_width="150dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="45dp"
+						android:layout_marginTop="33dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+
+					<TextView
+						android:id="@+id/deadline_in_table_MaxPS"
+						android:layout_width="110dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="4dp"
+						android:layout_marginTop="67dp"
+						android:text="유통기한(소비기한):"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+					<TextView
+						android:id="@+id/deadline_value_in_table_MaxPS"
+						android:layout_width="110dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="110dp"
+						android:layout_marginTop="67dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/remain_time_in_table_MaxPS"
+						android:layout_width="60dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="3dp"
+						android:layout_marginTop="98dp"
+						android:text="남은 기간:"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+					<TextView
+						android:id="@+id/remain_time_value_in_table_MaxPS"
+						android:layout_width="60dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="60dp"
+						android:layout_marginTop="99dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+
+					<TextView
+						android:id="@+id/remain_food_in_table_MaxPS"
+						android:layout_width="50dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="3dp"
+						android:layout_marginTop="132dp"
+						android:text="남은 양:"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+					<TextView
+						android:id="@+id/remain_food_value_in_table_MaxPS"
+						android:layout_width="150dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="50dp"
+						android:layout_marginTop="130dp"
+						android:textColor="@color/freezer_name_color"
+						android:textSize="12sp" />
+
+
+				</RelativeLayout>
+
+				<ImageView
+					android:id="@+id/rectangle_110"
+					android:layout_width="110dp"
+					android:layout_height="153dp"
+					android:layout_marginStart="8dp"
+					android:layout_marginTop="41dp"
+					android:contentDescription="rectangle_11"/>
+
+				<TextView
+					android:id="@+id/product_picture2_in_freezer"
+					android:layout_width="44.6dp"
+					android:layout_height="23.6dp"
+					android:layout_marginLeft="49dp"
+					android:layout_marginTop="110dp"
+					android:text="@string/product_picture_in_freezer_string"
+					android:textColor="@color/freezer_name_color"
+					android:textSize="16sp" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout
+				android:id="@+id/ic_baseline_add_circle_outline"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="304dp"
+				android:layout_marginTop="712dp">
+
+				<ImageView
+					android:id="@+id/vector"
+					android:layout_width="33.33dp"
+					android:layout_height="33.33dp"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="3.33dp"
+					android:layout_marginTop="3.33dp"
+					android:layout_marginEnd="20dp"
+					android:contentDescription="vector"
+					android:src="@drawable/vector" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout
+				android:id="@+id/tabs_icon_5_tabs"
+				android:layout_width="410dp"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="752dp">
+
+				<View
+					android:id="@+id/_bg__tabs_icon_5_tabs_ek1"
+					android:layout_width="410dp"
+					android:layout_height="48dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__tabs_icon_5_tabs_ek1_shape" />
+
+				<ImageView
+					android:id="@+id/tab_bg"
+					android:layout_width="410dp"
+					android:layout_height="48dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="tab_bg"
+					android:src="@drawable/tab_bg" />
+
+
+				<RelativeLayout
+					android:id="@+id/tabs_icon_inactive_ek1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_marginEnd="328dp">
+
+					<View
+						android:id="@+id/_bg__tabs_icon_inactive_ek1"
+						android:layout_width="82dp"
+						android:layout_height="48dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:alpha="0.7"
+						android:background="#2C98F0" />
+
+					<RelativeLayout
+						android:id="@+id/icons_home"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentEnd="true"
+						android:layout_marginStart="24dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginEnd="27dp">
+
+						<View
+							android:id="@+id/_bg__icons_home_ek1"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:background="#2C98F0" />
+
+						<ImageView
+							android:id="@+id/home"
+							android:layout_width="19.97dp"
+							android:layout_height="17.02dp"
+							android:layout_marginStart="2.02dp"
+							android:layout_marginTop="3dp"
+							android:contentDescription="home"
+							android:src="@drawable/home" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/tabs_icon_inactive"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="82dp"
+					android:layout_marginTop="0dp"
+					android:layout_marginEnd="246dp">
+
+					<View
+						android:id="@+id/_bg___tabs_icon_inactive_ek1"
+						android:layout_width="82dp"
+						android:layout_height="48dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:alpha="0.7"
+						android:background="#2C98F0" />
+
+
+					<RelativeLayout
+						android:id="@+id/icon_freezer"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentEnd="true"
+						android:layout_marginStart="24dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginEnd="27dp">
+
+						<View
+							android:id="@+id/_bg__icon_freezer_ek1"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:background="#2C98F0" />
+
+						<ImageView
+							android:id="@+id/freezer_icon"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_alignParentStart="true"
+							android:layout_marginStart="3dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="freezer_icon"
+							app:srcCompat="@drawable/freezer" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/tabs_icon_inactive_ek6"
+					android:layout_width="82dp"
+					android:layout_height="wrap_content"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="82dp"
+					android:layout_marginTop="0dp"
+					android:layout_marginEnd="164dp">
+
+					<View
+						android:id="@+id/_bg___tabs_icon_inactive_ek7"
+						android:layout_width="82dp"
+						android:layout_height="48dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:alpha="0.7"
+						android:background="#2C98F0" />
+
+					<RelativeLayout
+						android:id="@+id/icon_cold_storage"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentEnd="true"
+						android:layout_marginStart="24dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginEnd="27dp">
+
+						<View
+							android:id="@+id/_bg__icon_cold_storage_ek1"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:background="#2C98F0" />
+
+						<ImageView
+							android:id="@+id/cold_storage_icon"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_alignParentStart="true"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="cold_storage_icon"
+							app:srcCompat="@drawable/cold_storage" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/tabs_icon_inactive_ek4"
+					android:layout_width="82dp"
+					android:layout_height="wrap_content"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="216dp"
+					android:layout_marginTop="0dp"
+					android:layout_marginEnd="82dp">
+
+					<View
+						android:id="@+id/_bg___tabs_icon_inactive_ek5"
+						android:layout_width="82dp"
+						android:layout_height="48dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:alpha="0.7"
+						android:background="#2C98F0" />
+
+
+					<RelativeLayout
+						android:id="@+id/icon_veget"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentEnd="true"
+						android:layout_marginStart="24dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginEnd="27dp">
+
+						<View
+							android:id="@+id/_bg__icon_veget_ek1"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:background="#2C98F0" />
+
+						<ImageView
+							android:id="@+id/veget_icon"
+							app:srcCompat="@drawable/veget"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_alignParentStart="true"
+							android:layout_alignParentTop="true"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="veget_icon" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/tabs_icon_active"
+					android:layout_width="82dp"
+					android:layout_height="wrap_content"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="288dp"
+					android:layout_marginTop="0dp"
+					android:layout_marginEnd="0dp">
+
+					<View
+						android:id="@+id/_bg___tabs_icon_active_ek1"
+						android:layout_width="82dp"
+						android:layout_height="48dp"
+						android:layout_marginTop="0dp"
+						android:background="#2C98F0" />
+
+					<View
+						android:id="@+id/indicator"
+						android:layout_width="82dp"
+						android:layout_height="2dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="46dp"
+						android:background="@drawable/indicator_shape" />
+
+
+					<RelativeLayout
+						android:id="@+id/icon_action_table"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentEnd="true"
+						android:layout_marginStart="24dp"
+						android:layout_marginTop="10dp"
+						android:layout_marginEnd="27dp">
+
+						<View
+							android:id="@+id/_bg__icon_actions_table_ek1"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:background="#2C98F0" />
+
+						<ImageView
+							android:id="@+id/table_icon"
+							app:srcCompat="@drawable/table"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_alignParentTop="true"
+							android:layout_marginTop="0dp"
+							android:contentDescription="table_icon" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

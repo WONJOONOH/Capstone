@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme._1023_food_guard" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Test_appbar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Test_appbar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
